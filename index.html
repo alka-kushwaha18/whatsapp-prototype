@@ -1,6 +1,23 @@
 <!DOCTYPE html><html><head>
 <link rel="stylesheet" href="style.css"><script src="app.js"></script>
-</head><body><div class="app">
+</head><body>
+  <div id="introSheet" class="sheet-overlay">
+  <div class="bottom-sheet">
+    <div class="sheet-handle"></div>
+
+    <div class="sheet-title">How to Explore the Prototype</div>
+
+    <div class="sheet-text">
+      • Tap the <b>🔍 Search</b> icon to open Search<br>
+      • Tap <b>Auto-Organised Results</b><br>
+      • Select a <b>Category</b><br>
+      • Tap an <b>Item</b> to open Preview<br>
+      • Use <b>Back</b> to return
+    </div>
+    <button class="sheet-btn" onclick="closeSheet()">Start Prototype</button>
+  </div>
+</div>
+  <div class="app">
 <div class="header">WhatsApp <span onclick="go('search.html')">🔍</span></div>
 <div class="content">
   <div class="card">Work Project Group</div>
